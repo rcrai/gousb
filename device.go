@@ -50,6 +50,8 @@ type DeviceDesc struct {
 	iManufacturer int // The Manufacturer descriptor index
 	iProduct      int // The Product descriptor index
 	iSerialNumber int // The SerialNumber descriptor index
+
+	DevivePortNumbers []uint8
 }
 
 // String returns a human-readable version of the device descriptor.

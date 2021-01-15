@@ -1,3 +1,3 @@
-module github.com/google/gousb
+module github.com/rcrai/gousb
 
 go 1.13
